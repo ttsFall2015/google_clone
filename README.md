@@ -29,7 +29,8 @@
 
 **Other Notes**:
 
+- You'll want to 'Sign Out' or open a new Incognito window to view the Google homepage without customization
 - DONT BE A PERFECTIONIST! You're just trying to make it look like google.com (not function like it) 
 - Don't worry about spacing things exactly to the pixel. 
-- Ignore the dropdown menus, form submissions and hover-highlighting.
+- Ignore the little microphone in the `<input>` box, as well as hover-highlighting and other bells and whistles.
 - Try to do as much and you can before relying on the developer tools (or viewing the page's source code).
