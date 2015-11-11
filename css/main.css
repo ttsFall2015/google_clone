@@ -1,14 +1,46 @@
+
+form input {
+	width: 300px;
+	height: 27px;
+	line-height: 27px;
+	text-indent: 10px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	color: #333;
+	background: #fff;
+	border: solid 1px #d9d9d9;
+	border-top: solid 1px #c0c0c0;
+	border-right: none;
+}
+
+.search {
+	border: 1px solid black;
+	width: 30%;
+	margin: 0 auto;
+}
+
 .google-search, .feeling-lucky{
 	width: 125px;
 	height: 38px;
 	left: 482px;
 	top: 390px;
-	right: 607px;;
+	right: 607px;
 	bottom: 428px;
 	font: arial sans-serif;
 	font-size: 13px;
+	margin-top: 10px;
+
+	
+	display: inline-block;
+
 }
 
 .google-search {
-
+	margin-left: 40%;
+	margin-right: 10px;
+}
+.logo {
+	text-align: center;
+	margin-top: 15%;
+	width: 100%;
 }
