@@ -32,6 +32,7 @@ form input {
 	font-size: 13px;
 	margin-top: 30px;
 
+
 	
 	display: inline-block;
 
@@ -45,4 +46,48 @@ form input {
 	text-align: center;
 	margin-top: 15%;
 	width: 100%;
+}
+
+#nav {
+	float: right;
+	margin-top: -175px;
+	margin-right: 8px;
+}
+
+.gmail, .images{
+	display: inline;
+	font: arial sans-serif;
+	padding-right: 10px;
+	color: grey;
+}
+
+.sign-in{
+	width: 69px;
+	height: 27px;
+	border-radius: 3px;
+	color: white;
+	background-color: #0266C8;
+	border-color: #0266C8;
+}
+
+
+
+.left {
+	float: left;
+	display: inline-block;
+
+}
+
+.right{
+	float: right;
+	display: inline-block;
+	list-style-type: none;
+}
+
+#footer {
+	margin-top: 150px;
+	background-color: #f1f1f1;
+	color: grey;
+
+
 }
