@@ -70,18 +70,26 @@ form input {
 	border-color: #0266C8;
 }
 
-
-
-.left {
-	float: left;
-	display: inline-block;
-
+.left{
+float:left;
+display:inline-block;
+list-style-type:none;
+font-family:Arial;
+font-size:13px;
+margin-left:20px;
+margin-top:5px;
 }
 
 .right{
-	float: right;
-	display: inline-block;
-	list-style-type: none;
+float:right;
+display:inline-block;
+list-style-type: none;
+font-family:Arial;
+font-size:13px;
+margin-right:20px;
+margin-top:5px;
+border-top:1px solid #EBEBEB;
+float:
 }
 
 #footer {
