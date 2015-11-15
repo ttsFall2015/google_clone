@@ -1,6 +1,143 @@
-.nav {
-    border-bottom: 1.5px solid;
-    border-width: 1.5px;
-    padding-left: 0px;
-    width: 100%;
+/*******************
+ Overall page rules
+*********************/
+
+/** Lists in header and footer */
+li {
+   display: inline-block;
 }
+
+a {
+   text-decoration: none;
+   color: #515151;
+}
+
+a:hover{
+   text-decoration: underline;
+}
+
+/*********************
+  Header
+**********************/
+.nav {
+   position: fixed;
+   height: 150px;
+   top: 0;
+   width: 100%;
+   overflow: hidden;
+}
+
+.nav ul {
+   float: right;
+   font-size: 80%;
+   color: #515151;
+}
+
+.nav li {
+   padding-top: 10px;
+   padding-bottom: 5px;
+   padding-right: 20px;
+}
+
+.nav img {
+   height: 25px;
+}
+
+/*********************
+  Image and Search Bar
+**********************/
+
+/* Total Container */
+.bar-img {
+   width: 700px;
+   height: 200px;
+   margin: 7em auto;
+}
+
+/* Google Image */
+.bar-img img {
+   display: block;
+   width: 290px;
+   margin: 0 auto;
+   padding-top: 2em;
+}
+
+/* Search Bar */
+.bar-img input {
+   display: block;
+   margin: 0 auto;
+   height: 30px;
+   width: 500px;
+}
+
+.bar-img input:focus {
+   outline-width: 1px;
+}
+
+/* Button Container */
+.bns  {
+   display: block;
+   width: 300px;
+   height: 100px;
+   margin: 0 auto;
+   margin-top: 15px;
+}
+
+/* Buttons */
+.bns button {
+   height: 40px;
+   border: none;
+   background-color: #F4F4F4;
+   padding: 0px 20px 0px 20px;
+   color: #757575;
+   font-weight: bold;
+   font-size: 80%;
+}
+
+.bns button:hover {
+   border-width: 1px;
+   border-style: solid;
+}
+
+.bns-right {
+   float: right;
+}
+
+/*********************
+         Footer
+**********************/
+
+.footer {
+   position: fixed;
+   background-color: #F2F2F2;
+   bottom: 0;
+   width: 100%;
+}
+
+/*Footer lists */
+.footer ul {
+   display: inline;
+   margin: 15px;
+   padding: 0;
+   color: #666666;
+   font-size: 80%;
+}
+
+/* Right footer list */
+.foot-right {
+   float: right;
+}
+
+.foot-right li {
+   padding-right: 25px;
+}
+
+/* Left footer list */
+.foot-left {
+   float: left;
+}
+
+.foot-left li {
+   padding-left: 25px;
+}
+
