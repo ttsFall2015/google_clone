@@ -1,0 +1,68 @@
+* {
+  font-family: arial,sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    width: 60px;
+}
+
+
+header {
+    text-align:center;
+    padding:-20px;
+}
+
+
+
+.login-name {
+  font-family: arial, sans-serif; font-size: 13px; color: #909090;
+}
+
+.user-stuff {
+  font-family: arial, sans-serif; font-size: 13px; color: #000000;
+  height: 1436; width: 30;
+}
+
+/**/
+/*LINKS*/
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration:underline;
+     cursor:pointer;
+}
+
+.u-logo {
+  content: 50px
+}
+
+/**/
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+
+a {
+    display: block;
+    width: 60px;
+}
